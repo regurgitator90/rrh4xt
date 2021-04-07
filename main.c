@@ -7,5 +7,7 @@ int main(int argc, char **argv) {
         display(argv[2]);
     if (argc > 3)
         command(argv[3]);
+    if (argc > 4)
+        insert(argv[4]);
     return 0;
 }
