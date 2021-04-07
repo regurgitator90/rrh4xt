@@ -1,1 +1,1 @@
-extern void process(char *str);
+extern void kbd(char *str);
