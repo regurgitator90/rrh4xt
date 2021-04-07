@@ -1,4 +1,5 @@
 #include "defs.h"
 
-void kbd(char *val) {
+void kbd(char *str) {
+    printf("kbd: %s\n", str);
 }

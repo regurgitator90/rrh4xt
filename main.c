@@ -5,5 +5,7 @@ int main(int argc, char **argv) {
         kbd(argv[1]);
     if (argc > 2)
         display(argv[2]);
+    if (argc > 3)
+        command(argv[2]);
     return 0;
 }
