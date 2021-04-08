@@ -9,5 +9,11 @@ int main(int argc, char **argv) {
         command(argv[3]);
     if (argc > 4)
         insert(argv[4]);
+    if (argc > 5)
+        search(argv[5]);
+    if (argc > 6)
+        files(argv[6]);
+    if (argc > 7)
+        utils(argv[7]);
     return 0;
 }
